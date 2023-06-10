@@ -1,0 +1,25 @@
+.common_section {
+    background-image: url('https://idphome.vn/wp-content/uploads/2022/07/Combo-noi-that-phong-ngu-dep-PN6818.jpg');
+    background-size: cover;
+    padding: 100px 0px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 320px;
+}
+
+.common_section h1 {
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .common_section {
+        padding: 70px 0px;
+
+        h1 {
+            font-style: 1.4rem;
+        }
+    }
+}
