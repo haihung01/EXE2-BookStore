@@ -118,7 +118,8 @@ const Signup = () => {
                                         <FormGroup className='form_group'>
                                             <input
                                                 type='file'
-                                                onChange={e => setFile(e.target.value)}
+                                                // value={file}
+                                                onChange={e => setFile(e.target.files[0])}
                                             />
                                         </FormGroup>
 
